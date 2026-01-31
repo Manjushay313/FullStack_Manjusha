@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Job Portal Website</title>
+    <style>
+       
+        *{
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to right, #f3e5f5, #ede7f6);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Headings */
+        h1,h2,h3{
+            background-color: #ffffffb3;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        h1{
+            color: rgb(0, 128, 0);
+        }
+
+        h2{
+            color: rgb(34, 0, 255);
+        }
+
+        h3{
+            color: rgba(0,0,255,0.6);
+        }
+
+        /* Paragraph + box model */
+        p{
+            width: 500px;
+            margin: 20px auto;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 12px;
+            background-color: beige;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        /* Lists */
+        ul{
+            width: 300px;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Table */
+        table{
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: separate;
+            background-color: #f0e6e6;
+        }
+
+        th{
+            background-color: rgb(140,140,182);
+            padding: 10px;
+            font-size: large;
+            border-radius: 10px;
+        }
+
+        td{
+            background-color: rgb(181,154,135);
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        th:hover{
+            background-color: olive;
+        }
+
+        td:hover{
+            background-color: slateblue;
+            color: white;
+        }
+
+        /* Images */
+        img{
+            display: block;
+            margin: 20px auto;
+            width: 300px;
+            
+        }
+
+        /* Form */
+        form{
+            width: 500px;
+            margin: 30px auto;
+            background-color: lightblue;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #ccc;
+        }
+
+        input[type="text"], input[type="email"], select{
+            width: 90%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: 2px solid pink;
+        }
+
+        input[type="submit"]{
+            padding: 10px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+
+        input[type="submit"]:hover{
+            background-color: darkmagenta;
+        }
+
+        /* Links */
+        a:hover{
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+
+<h1>JobSphere – Job Portal</h1>
+<h3>Your Gateway to Career Opportunities</h3>
+
+<p>
+    Welcome to JobSphere. This job portal helps students and freshers find suitable job opportunities.
+    Here you can explore job roles, companies, apply online and watch career guidance videos.
+</p>
+
+<h2>Available Job Roles</h2>
+<ul>
+    <li>Frontend Developer</li>
+    <li>Backend Developer</li>
+    <li>Data Analyst</li>
+    <li>AI / ML Engineer</li>
+</ul>
+
+<h2>Company Openings</h2>
+<table border="1">
+    <tr>
+        <th>Company</th>
+        <th>Role</th>
+        <th>Location</th>
+    </tr>
+    <tr>
+        <td>Google</td>
+        <td>Software Engineer</td>
+        <td>Bangalore</td>
+    </tr>
+    <tr>
+        <td>Amazon</td>
+        <td>Data Analyst</td>
+        <td>Hyderabad</td>
+    </tr>
+    <tr>
+        <td>Infosys</td>
+        <td>System Engineer</td>
+        <td>Pune</td>
+    </tr>
+</table>
+
+<h2>Work Environment</h2>
+<img src="https://picsum.photos/400/300" alt="Office">
+
+<h2>Apply for Job</h2>
+<form>
+    <label>Name:</label><br>
+    <input type="text" placeholder="Enter your name" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" placeholder="Enter your email"><br>
+
+    <label>Job Role:</label><br>
+    <select>
+        <option>Frontend Developer</option>
+        <option>Backend Developer</option>
+        <option>Data Analyst</option>
+        <option>AI / ML Engineer</option>
+    </select><br><br>
+
+    <input type="submit" value="Apply Now">
+</form>
+
+<h2>Career Guidance</h2>
+<video width="400" controls muted poster="https://picsum.photos/300/200">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+
+<h2>Learn from Experts</h2>
+<iframe width="400" height="225" src="https://www.youtube.com/embed/kxRZkJidkMM" allowfullscreen></iframe>
+
+<h2>Useful Links</h2>
+<a href="https://www.w3schools.com" target="_blank">Learn HTML & CSS</a>
+
+</body>
+</html>
